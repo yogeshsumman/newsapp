@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import  './Style.css'
 
 export class Newsitem extends Component {
     render() {
@@ -12,7 +11,7 @@ export class Newsitem extends Component {
                     <div className="card-body">
                         <h5 className="card-title">{title}...</h5>
                         <p className="card-text">{description}...</p>
-                        <a href={newsUrl} target="_blank" className="btn btn-sm btn-primary">Go somewhere</a>
+                        <a href={newsUrl} target="_blank" className="btn btn-sm btn-dark">Go somewhere</a>
                     </div>
                 </div>
             </div>

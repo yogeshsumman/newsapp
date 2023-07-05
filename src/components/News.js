@@ -3,7 +3,6 @@ import Newsitem from './Newsitem'
 
 export class News extends Component {
     articles = []
-    
     constructor() {
         super();
         console.log("this is my news component")
