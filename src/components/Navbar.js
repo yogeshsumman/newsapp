@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Style.css'
+import { Link } from "react-router-dom";
 
 export class Navbar extends Component {
 
@@ -16,9 +17,14 @@ export class Navbar extends Component {
               <li className="nav-item">
                 <a className="nav-link " aria-current="page" href="/">Home</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">About</a>
-              </li>
+              <li className="nav-item"><Link className="nav-link" to="/About">About</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/business">business</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/entertainment">entertainment</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/general">general</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/health">health</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/science">science</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/sports">sports</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/technology">technology</Link></li>
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
