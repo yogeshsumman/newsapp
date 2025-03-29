@@ -1,1 +1,1 @@
-"this is my news app created by using react✌✅"
+## Quick Bits News App a New-Gen News App##
